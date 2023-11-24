@@ -1,6 +1,6 @@
 # Chaabi
 1. Run the first file chaabi1.ipnyb with GPU otherwise it will take a lot of time. This code will give embeddings_combined.npy file which is then uploaded to Qdrant vector DB.
-2. In the file  combined.ipynb the last line of code you can enter your query in query sentence, and the output will be contextual answers to that query.
+2. In the file  response.ipynb the last line of code you can enter your query in query sentence, and the output will be contextual answers to that query.
 
 This code uses bert-base-nli-mean-tokens based sentence transformer and T5  Text-to-Text Transfer Transformer LLM model for.
 
